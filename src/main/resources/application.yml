@@ -1,0 +1,14 @@
+server:
+  port: 7070
+
+casedata:
+  api:
+    username: a2si-casedata-api-user
+    password: EyeDeeTee
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/IDT_DB
+    username: idt_user
+    password: password
